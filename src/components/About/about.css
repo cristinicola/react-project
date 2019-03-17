@@ -1,0 +1,27 @@
+.aboutContainer {
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.aboutTitle {
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.aboutDate {
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #666;
+}
+
+.aboutText {
+    font-size: 16px;
+    padding: 20px;
+    line-height: 25px;
+}

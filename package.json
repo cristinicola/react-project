@@ -1,0 +1,27 @@
+{
+  "name": "my-blog-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "json-loader": "^0.5.7",
+    "moment": "^2.18.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-fontawesome": "^1.6.1",
+    "react-moment": "^0.6.5",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.7",
+    "prop-types": "^15.6.0",
+    "react-text-truncate": "^0.11.2"
+  }
+}

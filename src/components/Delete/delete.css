@@ -1,0 +1,17 @@
+.buttonDelete {
+    font-size: 20px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    float: right;
+    padding-top: 20px;
+    padding-right: 10px;
+    color: #606060;
+}
+
+.buttonDelete:hover {
+    color: #00d8ff;
+}

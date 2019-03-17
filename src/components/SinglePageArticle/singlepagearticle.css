@@ -1,0 +1,47 @@
+.SinglePageContainer {
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.SinglePageTitle {
+    font-size: 26px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.SinglePageTitle a {
+    text-decoration: none;
+    color: #000;
+}
+
+.SinglePageTitle a:hover {
+    text-decoration: none;
+    color: #00d8ff;
+}
+
+.SinglePageDate {
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #666;
+}
+
+.SinglePageArticle {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    line-height: 27px;
+}
+
+.editButton {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    width: 50px;
+    height: 20px;
+}

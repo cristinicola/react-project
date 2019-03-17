@@ -1,0 +1,36 @@
+
+import React from 'react'
+import './newarticle.css';
+
+class NewArticle extends React.Component {
+    state = {Title:'',
+            Article: ''}
+    handleSubmit = (event) =>{
+      event.preventDefault();
+      console.log("Title:", this.titleInput.value);
+      console.log("Article:", this.articleInput.value);
+    }
+    render() {
+      return (
+        <form onSubmit={this.handleSubmit} className="form">
+          <label className="forInputLabel">
+          Article title: <br/>
+          <input ref={(input)=> this.titleInput = input} className="forInput" type="text" name="name" required />
+        </label>
+          <br/>
+          <label className="forInputLabel">
+            Article: <br/>
+            <textarea ref={(input)=> this.articleInput = input} className="forInput" rows="15" cols="50" required >
+                
+            </textarea>
+          </label>
+          <br/>
+          <button type="submit">
+              Publish article
+          </button>
+      </form>
+      )
+    }
+  }
+
+  export default NewArticle

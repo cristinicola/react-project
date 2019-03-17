@@ -1,0 +1,61 @@
+.articleContainer {
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.articleTitle {
+    font-size: 26px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.articleTitle a {
+    text-decoration: none;
+    color: #000;
+}
+
+.articleTitle a:hover {
+    text-decoration: none;
+    color: #00d8ff;
+}
+
+.articleDate {
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #666;
+}
+
+.articleTruncate {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    line-height: 27px;
+    /* width: 900px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
+.buttonDelete {
+    font-size: 20px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    float: right;
+    padding-top: 20px;
+    padding-right: 10px;
+    color: #606060;
+}
+
+.buttonDelete:hover {
+    color: #00d8ff;
+}
